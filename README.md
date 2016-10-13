@@ -1,23 +1,23 @@
-Official GdePosylka API client
+GdePosylka API v.4.0
 ================================================
 
-[GdePosylka](http://gdeposylka.ru/ "gdeposylka.ru") is a shipment tracking service.
+[ГдеПосылка](http://gdeposylka.ru/ "gdeposylka.ru") - сервис отслеживания отправлений.
 
-See example.php file for usage example.
+Примеры использования - в example.php.
 
-### Installing via Composer
+### Установка с Composer
 
-The recommended way to install is through [Composer](http://getcomposer.org).
+Проще всего воспользоваться [Composer](http://getcomposer.org).
 
 ```bash
 # Install Composer
 curl -sS https://getcomposer.org/installer | php
 
 # Add as a dependency
-php composer.phar require gdeposylka/api-client:dev-master
+php composer.phar require codezixo/api-client:dev-master
 ```
 
-After installing, you need to require Composer's autoloader:
+После установки, подключите классы API с помощью autoloader:
 
 ```php
 require 'vendor/autoload.php';
